@@ -1,0 +1,51 @@
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.rating {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #4CAF50;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 24px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.info {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.description {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.hours {
+  color: #666;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+}
