@@ -1,5 +1,6 @@
 import React from 'react';
 import RestaurantList from './components/RestaurantList';
+import RestaurantMap from './components/RestaurantMap';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <h1>Les 20 Meilleurs Restaurants de L'Isle-Adam</h1>
         <p className="subtitle">Classés selon les avis Google Maps</p>
       </header>
+      <RestaurantMap />
       <main>
         <RestaurantList />
       </main>
